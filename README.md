@@ -1,8 +1,10 @@
 # 舆鉴 / **CHINA**LE
 
-中国地理版本的 WORDLE：https://heliumjt.gitee.io/chinale
+中国地理版本的 WORDLE：https://chinale.sbwsz.com
 
-A Chinese geographical wordle game: https://heliumjt.gitee.io/chinale
+A Chinese geographical wordle game: https://chinale.sbwsz.com
+
+- 2024-05-04：Gitee Pages已经停止服务，**舆鉴**迁移到新地址。
 
 ## 关于 / About
 
