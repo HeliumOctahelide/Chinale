@@ -65,7 +65,7 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://heliumjt.gitee.io/chinale"].join("\n");
+    return [title, guessString, "https://heliumoctahelide.github.io/Chinale/"].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (
