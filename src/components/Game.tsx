@@ -144,7 +144,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
           onClick={() => setHideImageMode(false)}
         >
           <Twemoji
-            text={t("showCountry")}
+            text={t("showCountry") ?? ""}
             options={{ className: "inline-block" }}
           />
         </button>
@@ -196,7 +196,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
           onClick={() => setRotationMode(false)}
         >
           <Twemoji
-            text={t("cancelRotation")}
+            text={t("cancelRotation") ?? ""}
             options={{ className: "inline-block" }}
           />
         </button>
@@ -225,7 +225,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
               rel="noopener noreferrer"
             >
               <Twemoji
-                text={t("showOnGoogleMaps")}
+                text={t("showOnGoogleMaps") ?? ""}
                 options={{ className: "inline-block" }}
               />
             </a>
@@ -236,7 +236,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
               rel="noopener noreferrer"
             >
               <Twemoji
-                text={t("showOnWikipedia")}
+                text={t("showOnWikipedia") ?? ""}
                 options={{ className: "inline-block" }}
               />
             </a>
